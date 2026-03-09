@@ -7,7 +7,7 @@ export default function DestinationsSection({ setActiveTab }: any) {
   {
     city: 'Colombo',
     tagline: 'The Vibrant Capital',
-    image: '/images/colombo.jpg',
+    image: '/images/Colombo.jpg',
     description: "Sri Lanka's bustling capital city is the perfect starting point for your adventure. Explore urban attractions, shopping, and dining experiences.",
     highlights: [
       'Colombo National Museum',
@@ -23,7 +23,7 @@ export default function DestinationsSection({ setActiveTab }: any) {
   {
     city: 'Kandy',
     tagline: 'The Cultural Heart',
-    image: '/images/kandy.jpg',
+    image: '/images/Kandy.jpg',
     description: "High in the misty mountains, Kandy is Sri Lanka's cultural and spiritual center. Experience ancient temples and lush gardens.",
     highlights: [
       'Temple of the Tooth Relic',
@@ -39,7 +39,7 @@ export default function DestinationsSection({ setActiveTab }: any) {
   {
     city: 'Galle',
     tagline: 'The Coastal Gem',
-    image: '/images/galle.jpg', 
+    image: '/images/Galle.jpg', 
     description: 'A picturesque coastal town famous for its UNESCO World Heritage fort. Relax on pristine beaches and explore historic architecture.',
     highlights: [
       'Galle Fort (UNESCO site)',
