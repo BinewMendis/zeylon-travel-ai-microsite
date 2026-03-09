@@ -4,59 +4,55 @@ import { Button } from "../ui/button"
 
 export default function DestinationsSection({ setActiveTab }: any) {
   const destinations = [
-    {
-      city: 'Colombo',
-      tagline: 'The Vibrant Capital',
-      image: 'images/colombo.jpg',
-      description:
-        "Sri Lanka's bustling capital city is the perfect starting point for your adventure. Explore urban attractions, shopping, and dining experiences.",
-      highlights: [
-        'Colombo National Museum',
-        'Galle Face Green',
-        'Old Parliament Building',
-        'Shopping malls & markets',
-        'Diverse cuisine',
-        'Nightlife & entertainment',
-      ],
-      vibe: 'Urban, Modern, Cosmopolitan',
-      color: 'from-blue-500/20 to-cyan-500/20',
-    },
-    {
-      city: 'Kandy',
-      tagline: 'The Cultural Heart',
-      image: 'images/kandy.jpg',
-      description:
-        "High in the misty mountains, Kandy is Sri Lanka's cultural and spiritual center. Experience ancient temples and lush gardens.",
-      highlights: [
-        'Temple of the Tooth Relic',
-        'Kandy Lake walks',
-        'Botanical Gardens',
-        'Traditional dance shows',
-        'Tea plantations nearby',
-        'Mountain scenery',
-      ],
-      vibe: 'Cultural, Spiritual, Scenic',
-      color: 'from-green-500/20 to-emerald-500/20',
-    },
-    {
-      city: 'Galle',
-      tagline: 'The Coastal Gem',
-      image: 'images/galle.jpg', 
-      description:
-        'A picturesque coastal town famous for its UNESCO World Heritage fort. Relax on pristine beaches and explore historic architecture.',
-      highlights: [
-        'Galle Fort (UNESCO site)',
-        'Unawatuna Beach',
-        'Sunrise Point',
-        'Local fish markets',
-        'Seafood restaurants',
-        'Coral reefs & snorkeling',
-      ],
-      vibe: 'Relaxing, Historic, Beachy',
-      color: 'from-amber-500/20 to-orange-500/20',
-    },
-  ]
-
+  {
+    city: 'Colombo',
+    tagline: 'The Vibrant Capital',
+    image: '/images/colombo.jpg',
+    description: "Sri Lanka's bustling capital city is the perfect starting point for your adventure. Explore urban attractions, shopping, and dining experiences.",
+    highlights: [
+      'Colombo National Museum',
+      'Galle Face Green',
+      'Old Parliament Building',
+      'Shopping malls & markets',
+      'Diverse cuisine',
+      'Nightlife & entertainment',
+    ],
+    vibe: 'Urban, Modern, Cosmopolitan',
+    color: 'from-blue-500/20 to-cyan-500/20',
+  },
+  {
+    city: 'Kandy',
+    tagline: 'The Cultural Heart',
+    image: '/images/kandy.jpg',
+    description: "High in the misty mountains, Kandy is Sri Lanka's cultural and spiritual center. Experience ancient temples and lush gardens.",
+    highlights: [
+      'Temple of the Tooth Relic',
+      'Kandy Lake walks',
+      'Botanical Gardens',
+      'Traditional dance shows',
+      'Tea plantations nearby',
+      'Mountain scenery',
+    ],
+    vibe: 'Cultural, Spiritual, Scenic',
+    color: 'from-green-500/20 to-emerald-500/20',
+  },
+  {
+    city: 'Galle',
+    tagline: 'The Coastal Gem',
+    image: '/images/galle.jpg', 
+    description: 'A picturesque coastal town famous for its UNESCO World Heritage fort. Relax on pristine beaches and explore historic architecture.',
+    highlights: [
+      'Galle Fort (UNESCO site)',
+      'Unawatuna Beach',
+      'Sunrise Point',
+      'Local fish markets',
+      'Seafood restaurants',
+      'Coral reefs & snorkeling',
+    ],
+    vibe: 'Relaxing, Historic, Beachy',
+    color: 'from-amber-500/20 to-orange-500/20',
+  },
+]
   return (
     <div className="space-y-20 py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
