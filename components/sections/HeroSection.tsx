@@ -18,7 +18,7 @@ export default function HeroSection({ onGetStarted, onLearnMore }: HeroSectionPr
 
 
           <h1 className="text-5xl md:text-6xl font-bold leading-tight">
-            AI-Powered Travel Planning for{' '}
+            AI Travel Planner for{' '}
             <span className="bg-gradient-to-r from-accent via-secondary to-accent bg-clip-text text-transparent">
               Sri Lanka
             </span>
