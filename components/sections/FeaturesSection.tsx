@@ -8,9 +8,9 @@ export default function FeaturesSection({ setActiveTab }: any) {
   const features = [
     {
       icon: Sparkles,
-      title: "AI-Powered Itinerary Generation",
-      description:
-        "Automatically creates travel schedules tailored to your interests, budget, and time.",
+      title: "AI Itinerary Generator for Sri Lanka",
+description:
+  "Our AI itinerary generator creates personalized Sri Lanka travel itineraries based on your interests, budget, and travel duration.",
       featuresList: [
         "Personalized based on your preferences",
         "Real-time optimization",
@@ -58,7 +58,7 @@ export default function FeaturesSection({ setActiveTab }: any) {
       {/* Section Header */}
       <div className="text-center space-y-4">
         <h2 className="text-5xl md:text-6xl font-bold">
-          Powerful Features Designed for Smart Travel
+          AI Travel Planner Features for Sri Lanka Trips
         </h2>
 
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
