@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 
   metadataBase: new URL("https://zeylon-travel-ai.vercel.app"),
 
-  openGraph: {
+    openGraph: {
     title: "Zeylon Travel AI – Smart AI Trip Planner",
     description:
       "Discover Sri Lanka with AI-powered travel planning. Instantly generate personalized itineraries for Colombo, Kandy, Galle and hidden gems.",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     siteName: "Zeylon Travel AI",
     images: [
       {
-        url: "og-image.jpg",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
         alt: "Zeylon Travel AI – Smart Sri Lanka Trip Planner",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     title: "Zeylon Travel AI – AI Travel Planner",
     description:
       "Create personalized Sri Lanka travel itineraries using artificial intelligence.",
-    images: ["og-image.jpg"],
+    images: ["/og-image.png"],
   },
 
   icons: {
