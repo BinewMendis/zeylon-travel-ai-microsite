@@ -14,9 +14,47 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Zeylon Travel AI - AI-Powered Travel Planner for Sri Lanka",
+  title: "Zeylon Travel AI – AI-Powered Travel Planner for Sri Lanka",
+
   description:
-    "Plan your perfect Sri Lanka trip with artificial intelligence. Personalized itineraries based on your budget, interests, and travel style.",
+    "Plan your perfect Sri Lanka trip with artificial intelligence. Zeylon Travel AI creates personalized travel itineraries based on your budget, interests, and travel style.",
+
+  keywords: [
+    "AI travel planner",
+    "Sri Lanka travel planner",
+    "AI itinerary generator",
+    "travel AI Sri Lanka",
+    "smart travel planning",
+    "Sri Lanka tourism AI",
+  ],
+
+  metadataBase: new URL("https://zeylon-travel-ai.vercel.app"),
+
+  openGraph: {
+    title: "Zeylon Travel AI – Smart AI Trip Planner",
+    description:
+      "Discover Sri Lanka with AI-powered travel planning. Instantly generate personalized itineraries for Colombo, Kandy, Galle and hidden gems.",
+    url: "https://zeylon-travel-ai.vercel.app",
+    siteName: "Zeylon Travel AI",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Zeylon Travel AI – Smart Sri Lanka Trip Planner",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Zeylon Travel AI – AI Travel Planner",
+    description:
+      "Create personalized Sri Lanka travel itineraries using artificial intelligence.",
+    images: ["/og-image.jpg"],
+  },
 
   icons: {
     icon: [

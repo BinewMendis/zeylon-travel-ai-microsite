@@ -112,7 +112,10 @@ export default function DestinationsSection({ setActiveTab }: any) {
                 ))}
               </ul>
 
-              <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground mt-6">
+              <Button
+                className="w-full bg-accent hover:bg-accent/90 text-accent-foreground mt-6"
+                onClick={() => setActiveTab('contact')}
+              >
                 Plan Trip to {dest.city}
               </Button>
 
@@ -130,8 +133,8 @@ export default function DestinationsSection({ setActiveTab }: any) {
         </h3>
 
         <p className="text-lg text-muted-foreground mb-6">
-          Our AI can combine multiple cities into the perfect multi-city travel based on your interests.
-        </p>
+        Start by planning a trip for a selected city and discover the best nearby attractions with an AI-generated itinerary. Multi city travel planning with personalized preferences is coming soon.
+      </p>
 
         <Button
   size="lg"

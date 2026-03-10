@@ -15,16 +15,28 @@ export default function HeroSection({ onGetStarted, onLearnMore }: HeroSectionPr
 
         {/* Hero Title & Description */}
         <section className="space-y-8">
+
+
           <h1 className="text-5xl md:text-6xl font-bold leading-tight">
-            Plan Your Perfect{' '}
+            AI-Powered Travel Planning for{' '}
             <span className="bg-gradient-to-r from-accent via-secondary to-accent bg-clip-text text-transparent">
-              Sri Lankan Trip
+              Sri Lanka
             </span>
           </h1>
+
+{/* Social Proof */}
+          <div className="flex justify-center">
+            <span className="px-4 py-1 text-sm bg-accent/10 text-accent rounded-full border border-accent/20">
+              🌍 Trusted by early travelers from 10+ countries
+            </span>
+          </div>
+          
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Ceylon Itinerary AI is an intelligent travel planning platform designed to help tourists and locals discover Sri Lanka effortlessly. Using artificial intelligence, we generate personalized travel itineraries based on your preferences, budget, and travel duration.
+            Zeylon Travel AI creates personalized travel itineraries across Sri Lanka in seconds. 
+            Simply enter your budget, interests, and travel duration. Our AI will design the perfect trip for you.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
             <Button
               size="lg"
               className="bg-accent hover:bg-accent/90 text-accent-foreground text-lg h-12 px-8"
@@ -32,6 +44,7 @@ export default function HeroSection({ onGetStarted, onLearnMore }: HeroSectionPr
             >
               Generate Your Itinerary
             </Button>
+
             <Button
               size="lg"
               variant="outline"
@@ -41,6 +54,7 @@ export default function HeroSection({ onGetStarted, onLearnMore }: HeroSectionPr
               Learn More
             </Button>
           </div>
+
         </section>
 
         {/* Benefits Grid */}
