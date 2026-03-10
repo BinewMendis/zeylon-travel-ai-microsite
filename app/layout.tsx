@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     siteName: "Zeylon Travel AI",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Zeylon Travel AI – Smart Sri Lanka Trip Planner",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     title: "Zeylon Travel AI – AI Travel Planner",
     description:
       "Create personalized Sri Lanka travel itineraries using artificial intelligence.",
-    images: ["/og-image.jpg"],
+    images: ["og-image.jpg"],
   },
 
   icons: {
