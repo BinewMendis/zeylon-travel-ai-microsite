@@ -18,11 +18,11 @@ export default function HeroSection({ onGetStarted, onLearnMore }: HeroSectionPr
 
 
           <h1 className="text-5xl md:text-6xl font-bold leading-tight">
-            AI Travel Planner for{' '}
-            <span className="bg-gradient-to-r from-accent via-secondary to-accent bg-clip-text text-transparent">
-              Sri Lanka
-            </span>
-          </h1>
+Sri Lanka Travel Planner – Plan Your Perfect Trip
+<span className="bg-gradient-to-r from-accent via-secondary to-accent bg-clip-text text-transparent">
+ Sri Lanka
+</span>
+</h1>
 
           {/* Social Proof */}
           <div className="flex justify-center">
@@ -32,10 +32,9 @@ export default function HeroSection({ onGetStarted, onLearnMore }: HeroSectionPr
           </div>
 
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-          Zeylon Travel AI is an AI travel planner for Sri Lanka that creates personalized travel itineraries in seconds.
-          This AI itinerary generator helps travelers plan the perfect Sri Lanka trip based on their budget, interests, and travel duration.
-          Our AI travel planner recommends beaches, cultural sites, and hidden destinations across Sri Lanka.
-        </p>
+Zeylon Travel AI is a powerful Sri Lanka travel planner that helps you plan your trip easily.
+Generate a personalised Sri Lanka itinerary in seconds based on your budget, interests and travel duration.
+</p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
             <Button
