@@ -13,15 +13,15 @@ export default function HowItWorksSection() {
     },
     {
       number: "2",
-      title: "Customize Your Preferences",
+      title: "Customize Your Travel Preferences",
       description:
-        "Set your budget, interests, and trip duration",
+        "Set your budget, interests, and trip duration to create your ideal Sri Lanka itinerary.",
     },
     {
       number: "3",
-      title: "Get Your AI Itinerary",
+      title: "Get Your Personalized Sri Lanka Itinerary",
       description:
-        "Instantly receive a personalized travel plan",
+        "Instantly receive a personalised itinerary for your Sri Lanka trip.",
     },
   ]
 
@@ -48,10 +48,10 @@ export default function HowItWorksSection() {
 
       {/* Header */}
       <div className="space-y-4">
-        <h2 className="text-5xl md:text-6xl font-bold">How It Works</h2>
+        <h2 className="text-5xl md:text-6xl font-bold">How Our Sri Lanka Itinerary Planner Works</h2>
 
         <p className="text-xl text-muted-foreground">
-          Simple steps to create your perfect itinerary
+          Follow these simple steps to plan your perfect Sri Lanka itinerary in seconds.
         </p>
       </div>
 
@@ -86,7 +86,7 @@ export default function HowItWorksSection() {
       <Card className="p-12 border-border bg-gradient-to-br from-accent/10 to-secondary/10">
 
         <h3 className="text-3xl font-bold mb-8">
-          The Process
+          How the Sri Lanka Trip Planner Works
         </h3>
 
         <div className="space-y-8">
