@@ -18,9 +18,8 @@ export default function HeroSection({ onGetStarted, onLearnMore }: HeroSectionPr
 
 
           <h1 className="text-5xl md:text-6xl font-bold leading-tight">
-Sri Lanka Travel Planner – Plan Your Perfect Trip
+Travel Planner | Plan Your Perfect Trip
 <span className="bg-gradient-to-r from-accent via-secondary to-accent bg-clip-text text-transparent">
- Perfect Trip
 </span>
 </h1>
 

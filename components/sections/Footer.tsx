@@ -11,13 +11,13 @@ export default function Footer({ setActiveTab }: any) {
         <div className="flex items-center gap-2">
           <Plane className="w-5 h-5 text-accent" />
           <span className="font-semibold text-accent">
-            Zeylon Itinerary AI
+            Zeylon Travel AI
           </span>
         </div>
 
         {/* Copyright */}
         <p className="text-sm text-muted-foreground text-center">
-          © 2024 Zeylon Itinerary AI. All rights reserved.
+          © 2024 Zeylon Travel AI. All rights reserved.
         </p>
 
         {/* Links */}
