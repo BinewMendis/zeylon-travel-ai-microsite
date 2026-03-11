@@ -51,7 +51,7 @@ export default function HowItWorksSection() {
         <h2 className="text-5xl md:text-6xl font-bold">How Our Sri Lanka Itinerary Planner Works</h2>
 
         <p className="text-xl text-muted-foreground">
-          Follow these simple steps to plan your perfect Sri Lanka itinerary in seconds.
+          Follow these simple steps to create your personalised Sri Lanka itinerary and plan your trip easily.
         </p>
       </div>
 
