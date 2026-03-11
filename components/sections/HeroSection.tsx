@@ -26,12 +26,12 @@ Travel Planner | Plan Your Perfect Trip
           {/* Social Proof */}
           <div className="flex justify-center">
             <span className="px-4 py-1 text-sm bg-accent/10 text-accent rounded-full border border-accent/20">
-              🌍 Trusted by early travelers from 10+ countries
+              🌍 Trusted by early explorers from 10+ countries
             </span>
           </div>
 
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-Zeylon Travel AI is a powerful Sri Lanka travel planner that helps you plan your trip easily.
+Zeylon Travel AI is a powerful Sri Lanka trip planner that helps you plan your journey easily.
 Generate a personalised Sri Lanka itinerary in seconds based on your budget, interests and travel duration.
 </p>
 
@@ -67,7 +67,7 @@ Generate a personalised Sri Lanka itinerary in seconds based on your budget, int
             {
               icon: Clock,
               title: 'Save Time',
-              description: 'Generate complete travel plans in minutes, not hours',
+              description: 'Generate complete trip plans in minutes, not hours',
             },
             {
               icon: DollarSign,
