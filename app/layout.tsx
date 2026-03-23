@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import Script from "next/script"
 import { Geist, Geist_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
 
   metadataBase: new URL("https://zeylon-travel-ai.vercel.app"),
 
-    openGraph: {
+  openGraph: {
     title: "Zeylon Travel AI – Smart AI Trip Planner",
     description:
       "Discover Sri Lanka with AI-powered travel planning. Instantly generate personalized itineraries for Colombo, Kandy, Galle and hidden gems.",
@@ -75,6 +76,20 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-XNXWD5XNNQ"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-XNXWD5XNNQ');
+          `}
+        </Script>
+      </head>
       <body
         className={`${geist.variable} ${geistMono.variable} font-sans antialiased`}
       >
