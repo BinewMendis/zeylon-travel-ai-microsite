@@ -77,10 +77,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Force browser to use light theme */}
+        <meta name="color-scheme" content="light" />
+
+        {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-XNXWD5XNNQ"
           strategy="afterInteractive"
         />
+
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
@@ -90,6 +95,7 @@ export default function RootLayout({
           `}
         </Script>
       </head>
+
       <body
         className={`${geist.variable} ${geistMono.variable} font-sans antialiased`}
       >
